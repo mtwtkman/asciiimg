@@ -1,0 +1,18 @@
+[package]
+name = "asciiimg"
+version = "0.1.0"
+authors = ["mtwtkman <yo@mtwtkman.dev>"]
+edition = "2018"
+exclude = [
+    "examples/*",
+    "tests/*",
+]
+
+[lib]
+name = "asciiimg"
+path = "./src/lib.rs"
+
+[dependencies]
+image = "0.22"
+ansi_term = "0.9"
+terminal_size = "0.1.10"
