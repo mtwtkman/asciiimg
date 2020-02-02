@@ -16,7 +16,6 @@ impl<'a> CharPixel<'a> {
     fn new(pixel: &image::Rgba<u8>) -> CharPixel {
         let rgba = pixel.to_rgba();
         CharPixel {
-            // charactor: '■',
             charpixel: "@@",
             r: rgba[0] as u8,
             g: rgba[1] as u8,
